@@ -2,12 +2,13 @@ package ch04;
 
 public class Ex01 {
 	public static void main(String[] args) {
-	
-		int year = 400;
-	
-		if ( year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) {
-			System.out.println('a');
+		int num1 = 1;
+		int num2 = 1;
+		int num3 = 0;
+		System.out.print(num1 + "," + num2);
+		
+		for (int i = 0; i < 8; i++) {
+			num3 += num1 + num2;
 		}
 	}
-
 }
