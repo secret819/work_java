@@ -2,13 +2,16 @@ package ch04;
 
 public class Ex01 {
 	public static void main(String[] args) {
-		int num1 = 1;
-		int num2 = 1;
-		int num3 = 0;
-		System.out.print(num1 + "," + num2);
+		int sum = 0;
+		int i = 1;
 		
-		for (int i = 0; i < 8; i++) {
-			num3 += num1 + num2;
+		for ( i = 1; sum < 100; i++) {
+			if ( i % 2 != 0) {
+				sum += i;
+			} else {
+				sum -= i;
+			}
 		}
+		System.out.println(+i);
 	}
 }
