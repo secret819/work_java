@@ -4,26 +4,27 @@ import java.util.Scanner;
 
 public class Ch04Ex01_06 {
 	public static void main(String[] args) {
+        char c;
 		
+        Scanner input = new Scanner(System.in);
 		Scanner scanner = new Scanner(System.in);
-		String strGender = scanner.nextLine();
+		c = input.next().charAt(0);
 		String strAge = scanner.nextLine();
-		
+
 		int age = Integer.parseInt(strAge);
-		
+
 		if (age >= 18) {
-			if (strGender == "M") {
+			if (c == 'M') {
 				System.out.println("MAN");
-			} else if (strGender == "F") {
+			} else if (c == 'F') {
 				System.out.println("WOMAN");
 			}
-		} if (age < 18) {
-			if (strGender == "M") {
+		} else if (age < 18) {
+			if (c == 'M') {
 				System.out.println("BOY");
-			} else if (strGender == "F"){
+			} else if (c == 'F') {
 				System.out.println("GIRL");
 			}
 		}
 	}
-
 }
