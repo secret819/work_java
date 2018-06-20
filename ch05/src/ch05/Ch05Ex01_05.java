@@ -12,8 +12,8 @@ public class Ch05Ex01_05 {
 		String[] classes = scanner.nextLine().split(" ");
 		
 		// 3. 입력받은 번호를 이용하여 각 반의 평균값 배열에서 끄집어내기
-		double num01 = avgs[Integer.parseInt(classes[0])];
-		double num02 = avgs[Integer.parseInt(classes[1])];
+		double num01 = avgs[Integer.parseInt(classes[0]) - 1];
+		double num02 = avgs[Integer.parseInt(classes[1]) - 1];
 		
 		// 4. 두 반의 평균점수의 합
 		double sum = num01 + num02;
