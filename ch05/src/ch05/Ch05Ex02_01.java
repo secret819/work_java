@@ -7,9 +7,8 @@ public class Ch05Ex02_01 {
 		Scanner scanner = new Scanner(System.in);
 		String[] alphabets = scanner.nextLine().split(" ");
 		
-		for (int i = alphabets.length; i >= 0; i--) {
-			//String ch = alphabets[]
-			System.out.printf("%s ", alphabets);
+		for (int i = alphabets.length - 1; i >= 0; i--) {
+			System.out.printf("%s ", alphabets[i]);
 		}
 	}
 
