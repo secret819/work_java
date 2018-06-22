@@ -11,7 +11,7 @@ public class Ch05Ex02_06 {
 		
 		for (int i = 0; i < apple.length; i++) {
 			if (apple[i] == ch) {
-				System.out.println(i);
+				System.out.print(i);
 				break;
 			}
 			else if (i == apple.length - 1) {

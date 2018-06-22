@@ -9,7 +9,7 @@ public class Ch05Ex02_02 {
 		
 		int sum = Integer.parseInt(numbers[0]) + Integer.parseInt(numbers[2]) + Integer.parseInt(numbers[4]);
 		
-		System.out.printf("%d", sum);
+		System.out.print(sum);
 	}
 
 }
