@@ -7,17 +7,13 @@ public class csh01 {
 		Scanner scanner = new Scanner(System.in);
 		String[] alphabets = scanner.nextLine().split(" ");
 		
-		char[] result = new char[alphabets.length];
+		char[] ch = new char[alphabets.length];
 		
 		for (int i = 0; i < alphabets.length; i++) {
-			String tmp = alphabets[i];
-			
-			char tmp2 = tmp.charAt(0);
-			
-			result[i] = tmp2;
+			ch[i] = alphabets[i].charAt(0); 
 		}
 		
-		System.out.println(result);
+		System.out.println(ch);
 	}
 
 }

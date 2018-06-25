@@ -9,7 +9,7 @@ public class csh03 {
 		
 		System.out.print(alphabets[0] + " ");
 		System.out.print(alphabets[3] + " ");
-		System.out.print(alphabets[6]);
+		System.out.print(alphabets[6] + " ");
 	}
 
 }
