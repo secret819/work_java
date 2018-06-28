@@ -1,7 +1,5 @@
 package ch06;
 
-class Dta { int x; }
-
 public class ReferenceParamEx {
 	public static void main(String[] args) {
 		Data d = new Data();
@@ -10,8 +8,7 @@ public class ReferenceParamEx {
 		
 		change(d);
 		System.out.println("After change(d)");
-		System.out.println("main() : x = " + d.x);
-		
+		System.out.println("main() : x = " + d.x);		
 	}
 	
 	static void change (Data d) {	// 참조형 매개변수
